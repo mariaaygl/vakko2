@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-vakkko-hakkinda.component.css'
 })
 export class PageVakkkoHakkindaComponent {
-
 }

@@ -13,7 +13,6 @@ import { FooterComponent } from './footer/footer.component';
 import { CommonModule } from '@angular/common';
 
 //CommonModule,RouterModule and RouterOutlet can be used to route some links(or paths).
-
 @Component({
   selector: 'app-root',
   standalone: true,

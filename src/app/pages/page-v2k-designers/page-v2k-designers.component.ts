@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-v2k-designers.component.css'
 })
 export class PageV2kDesignersComponent {
-
 }

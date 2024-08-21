@@ -21,3 +21,4 @@ describe('PageVakkoHotelComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

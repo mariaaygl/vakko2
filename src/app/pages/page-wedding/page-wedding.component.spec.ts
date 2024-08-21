@@ -21,3 +21,4 @@ describe('PageWeddingComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

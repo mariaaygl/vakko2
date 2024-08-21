@@ -16,7 +16,6 @@ import { PageErkekComponent } from './pages/page-erkek/page-erkek.component';
 import { PageShoesBagsComponent } from './pages/pages-shoes-bags/page-shoes-bags.component';
 import { PageVakkkoHakkindaComponent } from './pages/page-vakkko-hakkinda/page-vakkko-hakkinda.component';
 
-
 const routes: Routes = [
   { path: 'page-kadin', component: PageKadinComponent },
   { path: 'page-erkek', component: PageErkekComponent },

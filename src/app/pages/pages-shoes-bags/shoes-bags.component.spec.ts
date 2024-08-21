@@ -21,3 +21,4 @@ describe('ShoesBagsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

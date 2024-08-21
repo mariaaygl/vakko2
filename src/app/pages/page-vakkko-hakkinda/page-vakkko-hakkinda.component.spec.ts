@@ -21,3 +21,4 @@ describe('PageVakkkoHakkindaComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

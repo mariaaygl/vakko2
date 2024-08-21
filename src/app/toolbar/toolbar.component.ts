@@ -66,5 +66,4 @@ export class ToolbarComponent {
     this.slides = document.getElementsByClassName('slide');
     this.showSlide(this.currentSlide);
   }
-
 }

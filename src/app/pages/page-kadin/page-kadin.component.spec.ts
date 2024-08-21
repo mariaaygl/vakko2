@@ -21,3 +21,4 @@ describe('PageKadinComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

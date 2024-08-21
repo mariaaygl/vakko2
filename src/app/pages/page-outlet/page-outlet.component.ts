@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-outlet.component.css'
 })
 export class PageOutletComponent {
-
 }

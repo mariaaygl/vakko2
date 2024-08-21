@@ -21,3 +21,4 @@ describe('PageLatelierComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

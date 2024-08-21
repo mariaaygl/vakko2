@@ -21,3 +21,4 @@ describe('SliderComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

@@ -31,3 +31,4 @@ export const routes: Routes = [
   { path: 'page-outlet', component: PageOutletComponent },
   {path: 'page-vakko-hakkinda', component:PageVakkkoHakkindaComponent}
 ];
+

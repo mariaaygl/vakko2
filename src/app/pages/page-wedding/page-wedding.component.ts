@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-wedding.component.css'
 })
 export class PageWeddingComponent {
-
 }

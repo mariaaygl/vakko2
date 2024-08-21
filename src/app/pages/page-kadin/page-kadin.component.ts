@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-kadin.component.css'
 })
 export class PageKadinComponent {
-
 }

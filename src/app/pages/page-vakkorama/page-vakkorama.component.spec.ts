@@ -21,3 +21,4 @@ describe('PageVakkoramaComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

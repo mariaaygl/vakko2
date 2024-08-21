@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-kozmetik.component.css'
 })
 export class PageKozmetikComponent {
-
 }

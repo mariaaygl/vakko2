@@ -55,3 +55,4 @@ export class SliderComponent implements OnInit {
     this.showSlide(this.currentSlide);
   }
 }
+

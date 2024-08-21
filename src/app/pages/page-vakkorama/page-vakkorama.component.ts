@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-vakkorama.component.css'
 })
 export class PageVakkoramaComponent {
-
 }

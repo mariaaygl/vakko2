@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './page-vakko-hotel.component.css'
 })
 export class PageVakkoHotelComponent {
-
 }
