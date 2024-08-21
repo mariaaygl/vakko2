@@ -1,0 +1,37 @@
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide">
+            <img src="https://cdn.vakko.com/banners/567680f7-cfc6-497e-a52e-484ac5f85928.jpeg" alt="Ana Menu" />
+        </div>
+
+        <div class="slide">
+            <img src="https://cdn.vakko.com/banners/73a8f4f0-f971-45d2-b7e9-2fea7619670c.jpeg" alt="Kadın Giyim" />
+        </div>
+
+
+        <div class="slide">
+            <img src="https://cdn.vakko.com/banners/feb5c0fd-56b6-438f-9653-5f06d0214b9f.jpeg" alt="Man Giyim" />
+        </div>
+        <div class="slide">
+            <video controls autoplay muted loop>
+                <source src="https://vakko-video.mncdn.com/f3/vakko-ss24-sezon-video-web_f3.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="slide">
+            <a href="https://www.vakkoesmod.com" target="_blank">
+                <img src="https://cdn.vakko.com/banners/79e81153-3a4e-496f-8d65-4980ddfec456.jpeg" alt="Vakko Esmod" />
+            </a>
+        </div>
+
+        <div class="slide">
+            <img src="https://cdn.vakko.com/banners/5fbc182e-b7fe-4209-a9d8-54372351ff49.jpeg" alt="Vakko Vet" />
+        </div>
+    </div>
+
+    <div class="dots">
+        <span *ngFor="let slide of slides; let i = index" class="dot" [ngClass]="{ active: currentSlide === i }"
+            (click)="currentSlide = i; showSlide(i)">
+        </span>
+    </div>
+</div>

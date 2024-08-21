@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 350px;
+}
+
+.left-content,
+.middle-content {
+    width: 25%;
+}
+
+.right-content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.category h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+.category h2:hover {
+    text-decoration:underline ;
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+}
+

@@ -1,6 +1,6 @@
-import { Routes } from '@angular/router';
-import { PageKadinComponent } from './pages/page-kadin/page-kadin.component';
-import { PageErkekComponent } from './pages/page-erkek/page-erkek.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+
 import { PageV2kDesignersComponent } from './pages/page-v2k-designers/page-v2k-designers.component';
 import { PageMareComponent } from './pages/page-mare/page-mare.component';
 import { PageCoutureComponent } from './pages/page-couture/page-couture.component';
@@ -11,11 +11,13 @@ import { PageVakkoramaComponent } from './pages/page-vakkorama/page-vakkorama.co
 import { PageVakkoHotelComponent } from './pages/page-vakko-hotel/page-vakko-hotel.component';
 import { PageLatelierComponent } from './pages/page-latelier/page-latelier.component';
 import { PageOutletComponent } from './pages/page-outlet/page-outlet.component';
+import { PageKadinComponent } from './pages/page-kadin/page-kadin.component';
+import { PageErkekComponent } from './pages/page-erkek/page-erkek.component';
 import { PageShoesBagsComponent } from './pages/pages-shoes-bags/page-shoes-bags.component';
 import { PageVakkkoHakkindaComponent } from './pages/page-vakkko-hakkinda/page-vakkko-hakkinda.component';
 
-export const routes: Routes = [
-  //paths to go when we click the items in the sidebar
+
+const routes: Routes = [
   { path: 'page-kadin', component: PageKadinComponent },
   { path: 'page-erkek', component: PageErkekComponent },
   { path: 'page-shoes-bags', component: PageShoesBagsComponent },
@@ -31,3 +33,11 @@ export const routes: Routes = [
   { path: 'page-outlet', component: PageOutletComponent },
   {path: 'page-vakko-hakkinda', component:PageVakkkoHakkindaComponent}
 ];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+
+

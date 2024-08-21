@@ -1,0 +1,186 @@
+.footer-container {
+  margin-top: 90px;
+}
+
+mat-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+.vakko-logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Didot', sans-serif;
+  font-size: 30px;
+  font-weight: 50;
+  color: #333;
+  margin-left: 50px;
+  letter-spacing: 5px;
+}
+
+.vakko-logo img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-icon {
+  font-weight: 100;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+button[mat-icon-button] {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+}
+
+button[mat-icon-button]:focus,
+button[mat-icon-button]:hover {
+  background: none;
+  border: none;
+}
+
+button[mat-icon-button] {
+  margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .vakko-logo {
+    font-size: 24px;
+    margin-left: 15px;
+    letter-spacing: 3px;
+  }
+
+  .vakko-logo img {
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  mat-toolbar {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vakko-logo {
+    font-size: 18px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+  }
+
+  .vakko-logo img {
+    width: 20px;
+    margin-right: 6px;
+  }
+
+  mat-toolbar {
+    padding: 6px 12px;
+  }
+}
+
+mat-sidenav-container {
+  height: 100%;
+  width: 100%;
+
+}
+
+mat-sidenav {
+  width: 300px;
+  background-color: #f4f4f4;
+  transition: width 0.3s ease;
+}
+
+mat-sidenav button {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #8f8a8a;
+  font-weight: bold;
+}
+
+.main-categories {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  padding: 10%;
+  color: rgb(172, 172, 172);
+  cursor: pointer;
+  position: relative
+}
+
+.sub-catagories {
+  align-items: center;
+  display: flex;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.sub-catagories:hover {
+  color: black;
+}
+
+.sub-catagories-vakko-hakkında {
+  display: flex;
+  margin-top: 70px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #8f8a8a;
+  font-weight: bold;
+}
+
+.sub-catagories-vakko-hakkında:hover {
+  color: black;
+}
+
+.sub-catagories-languages {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 120px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #8f8a8a;
+  font-weight: bold;
+}
+
+.sub-catagories-languages:hover {
+  color: black;
+}
+
+.sub-catagories-languages i.material-icons {
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+.sidenav.expanded {
+  height: 100%;
+  width: 1200px;
+}
+
+.main-categories a {
+  color: #8f8a8a;
+}
+
+.main-categories a:hover {
+  color: black;
+}

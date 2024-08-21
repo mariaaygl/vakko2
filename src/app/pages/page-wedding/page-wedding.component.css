@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-content img {
+    height: 600px; 
+}
